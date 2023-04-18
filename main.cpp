@@ -27,7 +27,7 @@ int main(void) {
         std::cin >> select_product;
         select_tool.select_item(select_product);
         if (select_product == 9) {
-            std::cout << "Hava a nice Day 🙂 " << std::endl;
+            std::cout << "Hava a nice Day :) " << std::endl;
             break;
         } else {  // if 
             switch((int)(select_product)) {
@@ -57,6 +57,7 @@ int main(void) {
                     break;
                 default:
                     std::cout << "You Enter illgal selection !!!" << std::endl;
+                    continue;
             } // switch 
 
             // enter product quantity
