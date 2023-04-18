@@ -57,6 +57,7 @@ int main(void) {
                     break;
                 default:
                     std::cout << "You Enter illgal selection !!!" << std::endl;
+                    std::cout << std::setw(45) << std::left << std::setfill('-') << null_ver << "\n";
                     continue;
             } // switch 
 
